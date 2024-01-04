@@ -1,0 +1,16 @@
+name: generate_api_key
+description: A library for generating random API key/access tokens
+version: 1.0.0
+homepage: https://github.com/Zfinix/generate_api_key
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dev_dependencies:
+  mocktail: ^1.0.0
+  test: ^1.19.2
+  very_good_analysis: ^5.1.0
+dependencies:
+  base32: ^2.1.3
+  base_x: ^2.0.1
+  uuid: ^4.3.1
